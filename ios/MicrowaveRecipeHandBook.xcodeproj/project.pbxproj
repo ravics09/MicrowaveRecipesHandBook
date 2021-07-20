@@ -11,6 +11,7 @@
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		3390D97826A6D64700F91A93 /* BootSplash.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3390D97726A6D64700F91A93 /* BootSplash.storyboard */; };
 		509982AF20C2AFC807C82CEA /* libPods-MicrowaveRecipeHandBook-MicrowaveRecipeHandBookTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 114A0766611CE64DD468FDA4 /* libPods-MicrowaveRecipeHandBook-MicrowaveRecipeHandBookTests.a */; };
 		71FEE2F491C283CA2A129C39 /* libPods-MicrowaveRecipeHandBook.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EA5ECA29184FC3DDDCB9E521 /* libPods-MicrowaveRecipeHandBook.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
@@ -38,6 +39,7 @@
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = MicrowaveRecipeHandBook/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = MicrowaveRecipeHandBook/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = MicrowaveRecipeHandBook/main.m; sourceTree = "<group>"; };
+		3390D97726A6D64700F91A93 /* BootSplash.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = BootSplash.storyboard; path = MicrowaveRecipeHandBook/BootSplash.storyboard; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = MicrowaveRecipeHandBook/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		83996CB418FF3A28DEEF7923 /* Pods-MicrowaveRecipeHandBook-MicrowaveRecipeHandBookTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MicrowaveRecipeHandBook-MicrowaveRecipeHandBookTests.release.xcconfig"; path = "Target Support Files/Pods-MicrowaveRecipeHandBook-MicrowaveRecipeHandBookTests/Pods-MicrowaveRecipeHandBook-MicrowaveRecipeHandBookTests.release.xcconfig"; sourceTree = "<group>"; };
 		A4E1D842209DEBB51725FB91 /* Pods-MicrowaveRecipeHandBook.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MicrowaveRecipeHandBook.release.xcconfig"; path = "Target Support Files/Pods-MicrowaveRecipeHandBook/Pods-MicrowaveRecipeHandBook.release.xcconfig"; sourceTree = "<group>"; };
@@ -88,6 +90,7 @@
 			children = (
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
 				13B07FB01A68108700A75B9A /* AppDelegate.m */,
+				3390D97726A6D64700F91A93 /* BootSplash.storyboard */,
 				13B07FB51A68108700A75B9A /* Images.xcassets */,
 				13B07FB61A68108700A75B9A /* Info.plist */,
 				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
@@ -145,7 +148,6 @@
 				AF4E0B3BBF69BCB2591F9F63 /* Pods-MicrowaveRecipeHandBook-MicrowaveRecipeHandBookTests.debug.xcconfig */,
 				83996CB418FF3A28DEEF7923 /* Pods-MicrowaveRecipeHandBook-MicrowaveRecipeHandBookTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -243,6 +245,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3390D97826A6D64700F91A93 /* BootSplash.storyboard in Resources */,
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 			);
