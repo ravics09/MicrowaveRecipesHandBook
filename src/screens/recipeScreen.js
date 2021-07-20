@@ -1,11 +1,19 @@
-import React from 'react'
-import { View, Text } from 'react-native';
+import React from 'react';
+import {View, Text, StyleSheet} from 'react-native';
 
 const RecipeScreen = () => {
-    return(
-        <View>
-            <Text>Recipe Screen</Text>
-        </View>
-    )
-}
+  return (
+    <View style={styles.center}>
+      <Text>Recipe Page</Text>
+    </View>
+  );
+};
+const styles = StyleSheet.create({
+  center: {
+    flex: 1,
+    justifyContent: 'center',
+    alignItems: 'center',
+    textAlign: 'center',
+  },
+});
 export default RecipeScreen;

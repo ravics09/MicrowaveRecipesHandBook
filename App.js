@@ -1,21 +1,23 @@
+import 'react-native-gesture-handler';
 import React, {useEffect} from 'react';
-import {View, Text, SafeAreaView, StatusBar} from 'react-native';
-import RNBootSplash from "react-native-bootsplash";
+import {SafeAreaView, StatusBar} from 'react-native';
+import RNBootSplash from 'react-native-bootsplash';
+import {NavigationContainer} from '@react-navigation/native';
+
+import BottomTab from './src/navigation/bottomTabNavigation';
+import DrawerNavigator from './src/navigation/drawerNavigation';
 
 const App = () => {
   useEffect(() => {
-    RNBootSplash.hide({ duration: 250 });
+    RNBootSplash.hide({duration: 250});
   }, []);
 
   return (
-    <>
-      <StatusBar barStyle="light-content" backgroundColor="#6a51ae" />
-      <SafeAreaView>
-        <View>
-          <Text>Hello World!</Text>
-        </View>
+      <SafeAreaView style={{flex: 1, backgroundColor: '#F0F8FF'}}>
+        <NavigationContainer>
+          <DrawerNavigator/>
+        </NavigationContainer>
       </SafeAreaView>
-    </>
   );
 };
 export default App;
